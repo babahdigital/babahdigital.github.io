@@ -2,31 +2,66 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <title>Verifikasi Domain - MyVueApp</title>
+  <title>Babah Digital - Beranda</title>
 
-  <!-- 
-    Ganti "YourVerificationCodeHere" dengan kode verifikasi dari Google.
-    Biasanya berbentuk karakter acak, contoh: "abc123xyz"
-  -->
+  <!-- (Opsional) Meta tag untuk verifikasi Google OAuth -->
   <meta name="google-site-verification" content="-TPTiPzCf97_Z_sGxv43UOazHbvtpzgjVZypPirwf2E" />
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      line-height: 1.5;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+  <!-- Bootstrap CSS (CDN) -->
+  <link 
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpe5wv6kvZKpCO6Hj9mtCTmOFG0C29CFN1B0VV2w5y2w8q55y"
+    crossorigin="anonymous"
+  >
 </head>
 <body>
-  <h1>Verifikasi Domain MyVueApp</h1>
-  <p>
-    Halaman ini digunakan untuk membuktikan bahwa Anda memiliki 
-    dan dapat mengelola domain ini. Jika Anda melihat halaman ini di browser,
-    artinya domain sudah aktif dan siap diverifikasi oleh Google.
-  </p>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Babah Digital</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="privacy.html">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="terms.html">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container mt-5">
+    <div class="text-center">
+      <h1 class="mb-4">Selamat Datang di Babah Digital</h1>
+      <p class="lead">
+        Ini adalah halaman sederhana yang digunakan untuk <strong>verifikasi OAuth</strong> 
+        sekaligus menyapa pengunjung. Babah Digital menyediakan berbagai solusi digital 
+        untuk kebutuhan Anda.
+      </p>
+      <p>
+        Silakan kunjungi halaman <a href="privacy.html">Privacy Policy</a> 
+        atau <a href="terms.html">Terms of Service</a> untuk informasi selengkapnya 
+        mengenai ketentuan penggunaan dan perlindungan privasi.
+      </p>
+      <a href="https://babahdigital.github.io/" class="btn btn-primary mt-3">
+        Kunjungi GitHub Pages
+      </a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (CDN) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+9dtRkA7B6a8c5DIZn+YBAlGo+p7X"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
